@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skylightdeveloper.tiktaktoe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/but_11_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/but_12_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/but_13_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/but_21_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/but_22_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/but_23_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/but_31_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/but_32_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/but_33_id"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
